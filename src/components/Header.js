@@ -24,7 +24,7 @@ const Header = () => {
                     <li className="p-4 text-black hover:cursor-pointer hover:font-semibold hover:text-gray-700 hover:scale-105 transition-transform duration-200">Our Services</li>
                     <li className="p-4 text-black hover:cursor-pointer  hover:font-semibold hover:text-gray-700 hover:scale-105 transition-transform duration-200">Contact Us</li>
                 </ul>
-                <Login />
+
 
             </div>
 
