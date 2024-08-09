@@ -1,13 +1,15 @@
-import './App.css';
-import Header from './components/Header';
-import MiddleBody from './components/MiddleBody';
+import './App.css'
+import Body from './components/Body';
+
+
 function App() {
   return (
     <div>
-      <Header />
-      <MiddleBody />
+      <Body />
     </div>
   );
 }
+
+
 
 export default App;
