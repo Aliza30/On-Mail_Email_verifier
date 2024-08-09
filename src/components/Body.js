@@ -1,13 +1,16 @@
 import React from 'react'
-import Header from './Header'
 import MiddleBody from './MiddleBody'
-import Footer from './Footer'
+import HeaderBody from './HeaderBody'
+import FooterDetails from './FooterDetails'
+
 const Body = () => {
+
+
     return (
         <>
-            <Header />
+            <HeaderBody />
             <MiddleBody />
-            <Footer />
+            <FooterDetails />
         </>
     )
 }

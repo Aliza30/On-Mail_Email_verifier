@@ -3,7 +3,6 @@ import FooterDetails from "./FooterDetails";
 const Footer = () => {
     return (
         <footer className="">
-            <FooterDetails />
             <div className=" bg-neutral-300  flex justify-around space-x-96">
                 <div>
                     <h1 className=" text-left p-4 font-serif text-sm">
