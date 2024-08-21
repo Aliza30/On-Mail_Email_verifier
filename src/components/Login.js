@@ -7,7 +7,7 @@ const Login = () => {
     }
     return (
         <>
-            <div className="max-w-md mx-auto my-[65px] p-2 hover:cursor-pointer ">
+            <div className="max-w-md mx-auto  p-2 hover:cursor-pointer ">
 
                 <form className=' space-y-3 rounded-lg bg-neutral-200 p-10 m-10 text-center'>
                     <h3 className="font-serif underline underline-offset-4">
@@ -40,8 +40,11 @@ const Login = () => {
                 </form>
 
             </div>
-
-
+            <div className='Emergency-Contact for Help text-center p-4 mb-11 font-serif font-semibold '>
+                <h1> Need any help drop a mail</h1>
+                <h1>  @</h1>
+                <a href="mailto:Demo@test.com" className=' text-blue-900 hover:cursor-pointer hover:text-red-800 underline underline-offset-2'>Demo@test.com</a>
+            </div>
             <FooterDetail />
         </>
     )

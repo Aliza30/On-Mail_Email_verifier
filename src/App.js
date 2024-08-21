@@ -6,7 +6,6 @@ import AboutUs from './components/AboutUs';
 import Service from './components/Service';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ContactUs from './components/ContactUs';
 import Login from './components/Login';
 import EmailSecurity from './components/EmailSecurity';
 import Error from './components/Error';
@@ -38,10 +37,6 @@ const router = createBrowserRouter([
       {
         path: '/aboutUs',
         element: <AboutUs />
-      },
-      {
-        path: '/contact',
-        element: <ContactUs />
       },
       {
         path: '/login',

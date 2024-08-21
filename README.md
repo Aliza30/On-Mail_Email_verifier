@@ -13,6 +13,8 @@
     - what make this website different
     - email marketing lead tips
     - out feature
+
+-- # Validation of the emails and password
 - # log out
     - 1 feature 
         - AI generating Subject {spam free, using good language}.
@@ -21,7 +23,8 @@
     - 2 check of the mail is correct or not.
     {Refine your mail segmentation}
     
-
+- # Sign up page
+    email name and password
 - # Log in 
     -- 1 feature 
         - AI generating Subject {spam free, using good language}.

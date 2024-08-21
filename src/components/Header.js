@@ -18,10 +18,13 @@ const Header = () => {
                     <li className="p-4 text-black hover:cursor-pointer hover:font-semibold hover:text-gray-700 hover:scale-105 transition-transform duration-200">
                         <Link to='/service'> Our Service</Link>
                     </li>
-                    <li className="p-4 text-black hover:cursor-pointer hover:font-semibold hover:text-gray-700 hover:scale-105 transition-transform duration-200">
+                    {/* <li className="p-4 text-black hover:cursor-pointer hover:font-semibold hover:text-gray-700 hover:scale-105 transition-transform duration-200">
                         <Link to='/contact'> Contact Us</Link>
-                    </li>
+                    </li> */}
                 </ul>
+                <p className=" p-4 font-serif font-semibold hover:cursor-pointer hover:font-semibold hover:text-blue-900">
+                    <Link to='/login'>Login or SignUp</Link>
+                </p>
             </div>
         </div>
     );
