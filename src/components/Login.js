@@ -13,13 +13,22 @@ const Login = () => {
                     <h3 className="font-serif underline underline-offset-4">
                         {isSignUp ? "Login here !" : "Sign Up Now !"}
                     </h3>
+                    {!isSignUp && <input type='text' placeholder='Name' className='p-3 border-black ' />}
                     <input type='text' placeholder='Email' className='p-3 border-black' />
+                    {!isSignUp && <div className=" px-10"><ul className=' space-x-3 font-sans font-thin text-xs list-disc text-left'>
+                        <p>  password must be atleast of 10 character.</p>
+                        <li> atleast one Upper Case character </li>
+                        <li> atleast one Special character </li>
+                        <li> no space in between </li>
+                        <li>atleast on number character</li>
+                    </ul></div>}
                     <input type='text' placeholder='Password' className='p-3 border-black ' />
+
                     <button
                         type="Login"
                         className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
                     >
-                        {isSignUp ? "Login In" : "Sign Up"}
+                        {isSignUp ? "Log In" : "Sign Up"}
                     </button>
                     <p
                         type="Sign-up"
