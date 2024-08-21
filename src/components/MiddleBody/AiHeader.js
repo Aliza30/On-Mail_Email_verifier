@@ -7,6 +7,7 @@ const AiHeader = () => {
                 AI for Subject
             </h1>
             <div className="flex px-2">
+                {/* <p className="mb-2 box-decoration-clone text-balance"></p> */}
                 <p className="mb-2 box-decoration-clone text-balance">AI enhances security by filtering spam, preventing spoofing, and ensuring robust protocol compliance.</p>
             </div>
         </div>

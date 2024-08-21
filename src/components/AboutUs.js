@@ -3,6 +3,7 @@ import FooterDetails from './FooterDetails';
 import img1 from "../components/utils/artificial-intelligence.png"
 import img2 from "../components/utils/confidential-email.png"
 import img3 from "../components/utils/email.png"
+import { Link } from 'react-router-dom';
 const AboutUs = () => {
     return (
         <div className=" font-serif m-10">
