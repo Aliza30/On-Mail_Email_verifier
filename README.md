@@ -34,13 +34,13 @@
     {Refine your mail segmentation}
         - max 10 mails. subscription base.
         - Weather the mail is still working and the mail can been send 
-
+- # Email Validation
 
 ### Form filling
-#### Firebase for authentication
+### Firebase for authentication
 
 
-##### Email Security Layers
+#### Email Security Layers
 SSL/TLS Encryption: Encrypts email content in transit, preventing interception by unauthorized parties during transmission.
 
 SMTP Authentication: Verifies the sender’s identity before email delivery, reducing the risk of email spoofing.
@@ -72,3 +72,7 @@ Email Encryption at Rest: Encrypts stored emails, safeguarding sensitive informa
 
 
 
+
+## Hook used in this 
+* use State
+* use ref for email valiadtion
